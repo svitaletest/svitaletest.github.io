@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University EduFord</title>
+    <link rel="stylesheet" href="style.css">
+    <link href=link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href= "index.html">HOME</a></li>
+                    <li><a href= "about.html">ABOUT</a></li>
+                    <li><a href= "course.html">COURSE</a></li>
+                    <li><a href= "blog.html">BLOG</a></li>
+                    <li><a href= "contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()" ></i>
+        </nav>
+        <h1>Our Certificate & Online Programs For 2023</h1>
+</section>
+
+<section class="blog-content">
+    <div class="row">
+      <div class="blog-left">
+        <img src="img/certificate.jpg">
+        <h2>Our Certificate & Online Programs For 2023</h2>
+        <p>Online university certificate programs provide flexible and accessible opportunities for individuals to enhance their skills and knowledge. These programs offer a wide range of subjects, from business management to computer programming, allowing learners to specialize in their areas of interest. With the convenience of online learning, students can study at their own pace and balance their education with other commitments.</p><br><p>
+        One of the key advantages of online university certificate programs is their convenience. Students can access course materials, lectures, and assignments from anywhere with an internet connection. This flexibility is particularly beneficial for working professionals or those with family responsibilities, as it allows them to pursue further education without disrupting their current commitments.</p><br><p>
+        Moreover, online certificate programs often have shorter durations compared to traditional degree programs. This means that learners can acquire specialized skills and credentials in a shorter amount of time, enabling them to enter or advance in their chosen careers more quickly. These programs are designed to provide practical knowledge and skills that are directly applicable to the workplace.</p><br><p>
+        Additionally, online university certificate programs are often more affordable than traditional on-campus options. They eliminate the need for commuting or relocating, reducing associated costs. Furthermore, many institutions offer financial aid options and scholarships specifically for online learners, making education more accessible and affordable for a wider range of individuals.</p><br><p>
+        In summary, online university certificate programs offer flexible learning options, convenience, specialized knowledge, and affordability. They provide a valuable pathway for individuals seeking to expand their skills and advance their careers without the constraints of traditional in-person education. With the rapid advancements in technology and the increasing demand for lifelong learning, online certificate programs have become an attractive option for many aspiring learners.</p>
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+
+            <form class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="email" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+            </form>
+        </div>
+    
+    </div>
+
+      <div class="blog-right">
+         <h3>Post Categories</h3>
+         <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+         </div>
+         <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+         </div>
+         <div>
+            <span>Python</span>
+            <span>41</span>
+         </div>
+         <div>
+            <span>Journalism</span>
+            <span>32</span>
+         </div>
+         <div>
+            <span>Data Science</span>
+            <span>12</span>
+         </div>
+    </div>
+
+
+
+
+</section>
+
+
+
+<section class="footer">
+       
+    <div class="icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="far fa-heart"></i> by Sofi Test</p>
+</section>
+
+
+
+<script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+</script>
+    
+    
+</body>
+</html>
